@@ -1,0 +1,6 @@
+Method,Decoder Architecture,Median Clean BER,Median JPEG 70 BER,Median Noise 0.01 BER,Median Blur $s=1$ BER,Median Contrast x1.15 BER
+Dct Svd Baseline,Reference-Based,0.0000,0.0020,0.3091,0.0366,0.5000
+Dwt Dct Adaptive Qim,Blind,0.0000,0.4619,0.4554,0.4961,0.0029
+Dwt Dct Qim Blind,Blind,0.0000,0.4653,0.4714,0.4951,0.0044
+Hybrid Precedent Fixed,Reference-Based,0.0000,0.3325,0.4929,0.4990,0.0654
+Lai Tsai Dwt Svd,Reference-Based,0.0000,0.0020,0.3022,0.0264,0.5000

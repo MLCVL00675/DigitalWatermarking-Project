@@ -1,0 +1,45 @@
+analysis,category,metric,mean_diff,ci_95_lo,ci_95_hi,ci_90_lo,ci_90_hi,margin,is_equivalent,notes
+pooled_adaptive_vs_fixed,pooled,TOST_margin_0.005,0.001939,0.001273,0.002585,0.001398,0.002487,0.005,True,Pooled across all attacks and subbands on 100 COCO images; margin=0.005
+pooled_adaptive_vs_fixed,pooled,TOST_margin_0.01,0.001939,0.001273,0.002585,0.001398,0.002487,0.01,True,Pooled across all attacks and subbands on 100 COCO images; margin=0.01
+pooled_adaptive_vs_fixed,pooled,TOST_margin_0.02,0.001939,0.001273,0.002585,0.001398,0.002487,0.02,True,Pooled across all attacks and subbands on 100 COCO images; margin=0.02
+per_attack_adaptive_vs_fixed,contrast,TOST_margin_0.005,-0.008054,-0.009331,-0.006619,-0.009168,-0.006863,0.005,False,Attack: contrast; margin=0.005
+per_attack_adaptive_vs_fixed,contrast,TOST_margin_0.01,-0.008054,-0.009331,-0.006619,-0.009168,-0.006863,0.01,True,Attack: contrast; margin=0.01
+per_attack_adaptive_vs_fixed,contrast,TOST_margin_0.02,-0.008054,-0.009331,-0.006619,-0.009168,-0.006863,0.02,True,Attack: contrast; margin=0.02
+per_attack_adaptive_vs_fixed,cropping,TOST_margin_0.005,0.000269,0.000115,0.000432,0.000137,0.000405,0.005,True,Attack: cropping; margin=0.005
+per_attack_adaptive_vs_fixed,cropping,TOST_margin_0.01,0.000269,0.000115,0.000432,0.000137,0.000405,0.01,True,Attack: cropping; margin=0.01
+per_attack_adaptive_vs_fixed,cropping,TOST_margin_0.02,0.000269,0.000115,0.000432,0.000137,0.000405,0.02,True,Attack: cropping; margin=0.02
+per_attack_adaptive_vs_fixed,gaussian_blur,TOST_margin_0.005,-0.006091,-0.006899,-0.005315,-0.006768,-0.005442,0.005,False,Attack: gaussian_blur; margin=0.005
+per_attack_adaptive_vs_fixed,gaussian_blur,TOST_margin_0.01,-0.006091,-0.006899,-0.005315,-0.006768,-0.005442,0.01,True,Attack: gaussian_blur; margin=0.01
+per_attack_adaptive_vs_fixed,gaussian_blur,TOST_margin_0.02,-0.006091,-0.006899,-0.005315,-0.006768,-0.005442,0.02,True,Attack: gaussian_blur; margin=0.02
+per_attack_adaptive_vs_fixed,gaussian_noise,TOST_margin_0.005,-0.000416,-0.001219,0.000343,-0.00107,0.000219,0.005,True,Attack: gaussian_noise; margin=0.005
+per_attack_adaptive_vs_fixed,gaussian_noise,TOST_margin_0.01,-0.000416,-0.001219,0.000343,-0.00107,0.000219,0.01,True,Attack: gaussian_noise; margin=0.01
+per_attack_adaptive_vs_fixed,gaussian_noise,TOST_margin_0.02,-0.000416,-0.001219,0.000343,-0.00107,0.000219,0.02,True,Attack: gaussian_noise; margin=0.02
+per_attack_adaptive_vs_fixed,jpeg,TOST_margin_0.005,0.007789,0.007022,0.008582,0.007142,0.008449,0.005,False,Attack: jpeg; margin=0.005
+per_attack_adaptive_vs_fixed,jpeg,TOST_margin_0.01,0.007789,0.007022,0.008582,0.007142,0.008449,0.01,True,Attack: jpeg; margin=0.01
+per_attack_adaptive_vs_fixed,jpeg,TOST_margin_0.02,0.007789,0.007022,0.008582,0.007142,0.008449,0.02,True,Attack: jpeg; margin=0.02
+per_attack_adaptive_vs_fixed,median_filter,TOST_margin_0.005,-0.006003,-0.007036,-0.00491,-0.006897,-0.005081,0.005,False,Attack: median_filter; margin=0.005
+per_attack_adaptive_vs_fixed,median_filter,TOST_margin_0.01,-0.006003,-0.007036,-0.00491,-0.006897,-0.005081,0.01,True,Attack: median_filter; margin=0.01
+per_attack_adaptive_vs_fixed,median_filter,TOST_margin_0.02,-0.006003,-0.007036,-0.00491,-0.006897,-0.005081,0.02,True,Attack: median_filter; margin=0.02
+per_attack_adaptive_vs_fixed,no_attack,TOST_margin_0.005,0.0,0.0,0.0,0.0,0.0,0.005,True,Attack: no_attack; margin=0.005
+per_attack_adaptive_vs_fixed,no_attack,TOST_margin_0.01,0.0,0.0,0.0,0.0,0.0,0.01,True,Attack: no_attack; margin=0.01
+per_attack_adaptive_vs_fixed,no_attack,TOST_margin_0.02,0.0,0.0,0.0,0.0,0.0,0.02,True,Attack: no_attack; margin=0.02
+per_attack_adaptive_vs_fixed,rotation,TOST_margin_0.005,0.003027,0.002471,0.00359,0.002568,0.003481,0.005,True,Attack: rotation; margin=0.005
+per_attack_adaptive_vs_fixed,rotation,TOST_margin_0.01,0.003027,0.002471,0.00359,0.002568,0.003481,0.01,True,Attack: rotation; margin=0.01
+per_attack_adaptive_vs_fixed,rotation,TOST_margin_0.02,0.003027,0.002471,0.00359,0.002568,0.003481,0.02,True,Attack: rotation; margin=0.02
+per_attack_adaptive_vs_fixed,salt_and_pepper,TOST_margin_0.005,0.006404,0.005075,0.007793,0.005284,0.007566,0.005,False,Attack: salt_and_pepper; margin=0.005
+per_attack_adaptive_vs_fixed,salt_and_pepper,TOST_margin_0.01,0.006404,0.005075,0.007793,0.005284,0.007566,0.01,True,Attack: salt_and_pepper; margin=0.01
+per_attack_adaptive_vs_fixed,salt_and_pepper,TOST_margin_0.02,0.006404,0.005075,0.007793,0.005284,0.007566,0.02,True,Attack: salt_and_pepper; margin=0.02
+per_attack_adaptive_vs_fixed,speckle_noise,TOST_margin_0.005,0.000815,-0.000379,0.001983,-0.000182,0.001804,0.005,True,Attack: speckle_noise; margin=0.005
+per_attack_adaptive_vs_fixed,speckle_noise,TOST_margin_0.01,0.000815,-0.000379,0.001983,-0.000182,0.001804,0.01,True,Attack: speckle_noise; margin=0.01
+per_attack_adaptive_vs_fixed,speckle_noise,TOST_margin_0.02,0.000815,-0.000379,0.001983,-0.000182,0.001804,0.02,True,Attack: speckle_noise; margin=0.02
+subband_ranking_hl_vs_ll,contrast,HL_vs_LL_mean_ber,-0.401291,0.101638,0.50293,0.0,0.0,0.0,False,"HL mean=0.1016, LL mean=0.5029, Favors: HL, p=3.8963e-18"
+subband_ranking_hl_vs_ll,cropping,HL_vs_LL_mean_ber,-0.017725,0.102686,0.12041,0.0,0.0,0.0,False,"HL mean=0.1027, LL mean=0.1204, Favors: HL, p=3.8884e-18"
+subband_ranking_hl_vs_ll,gaussian_blur,HL_vs_LL_mean_ber,0.456199,0.496807,0.040608,0.0,0.0,0.0,False,"HL mean=0.4968, LL mean=0.0406, Favors: LL, p=3.8966e-18"
+subband_ranking_hl_vs_ll,gaussian_noise,HL_vs_LL_mean_ber,0.162758,0.486749,0.32399,0.0,0.0,0.0,False,"HL mean=0.4867, LL mean=0.3240, Favors: LL, p=3.8966e-18"
+subband_ranking_hl_vs_ll,jpeg,HL_vs_LL_mean_ber,0.15608,0.161103,0.005023,0.0,0.0,0.0,False,"HL mean=0.1611, LL mean=0.0050, Favors: LL, p=3.8961e-18"
+subband_ranking_hl_vs_ll,median_filter,HL_vs_LL_mean_ber,0.386663,0.462847,0.076184,0.0,0.0,0.0,False,"HL mean=0.4628, LL mean=0.0762, Favors: LL, p=3.8961e-18"
+subband_ranking_hl_vs_ll,no_attack,HL_vs_LL_mean_ber,0.0,0.0,0.0,0.0,1.0,0.0,True,"HL mean=0.0000, LL mean=0.0000, Favors: Tie, p=1.0000e+00"
+subband_ranking_hl_vs_ll,rotation,HL_vs_LL_mean_ber,0.007229,0.47853,0.471301,1468.5,0.000281,0.0,False,"HL mean=0.4785, LL mean=0.4713, Favors: LL, p=2.8058e-04"
+subband_ranking_hl_vs_ll,salt_and_pepper,HL_vs_LL_mean_ber,0.183018,0.368912,0.185893,0.0,0.0,0.0,False,"HL mean=0.3689, LL mean=0.1859, Favors: LL, p=3.8966e-18"
+subband_ranking_hl_vs_ll,speckle_noise,HL_vs_LL_mean_ber,0.178652,0.32502,0.146368,0.0,0.0,0.0,False,"HL mean=0.3250, LL mean=0.1464, Favors: LL, p=3.8966e-18"
+clean_extraction_failure_share,headroom_guard_evaluation,failure_rate_comparison,-0.03625,0.03625,0.0,0.0,0.0,0.0,True,"Failure rate without guard (h=0): 3.62%, with guard (h*=1): 0.00%"

@@ -1,0 +1,13 @@
+Attack Family,Attack Name,Severity Levels / Grid,Units,Stochastic Seeds,Interpolation / Notes
+Compression,JPEG Compression,"Q = [95, 90, 80, 70, 60, 50, 40, 30]",Quality [1..100],1,cv2 Real JPEG Encoding
+Additive Noise,Gaussian Noise,"var = [0.0005, 0.001, 0.0025, 0.005, 0.01, 0.02]",Normalized $\sigma^2$,10,Additive Normal Dist.
+Additive Noise,Salt & Pepper,"density = [0.1%, 0.5%, 1%, 2%, 5%]",Fraction [%],10,Impulse Noise
+Filtering,Gaussian Blur,"$\sigma = [0.5, 0.75, 1.0, 1.5, 2.0, 3.0]$",Pixels [px],1,Kernel size $3\sigma$
+Filtering,Median Filter,"kernel = [3x3, 5x5, 7x7]",Window size,1,Rank filter
+Geometric,Centered Crop,"area = [2.5%, 5%, 10%, 15%, 20%, 30%]",Area fraction,1,Border reflection
+Geometric,Linear Rescaling,"scale = [0.5, 0.75, 0.9, 1.1, 1.25, 1.5]",Ratio,1,INTER_LINEAR
+Geometric,Rotation,"$\theta = [0.5^\circ, 1^\circ, 2^\circ, 5^\circ, 10^\circ]$",Degrees,1,No registration / Reflect
+Photometric,Contrast Scaling,"factor = [x0.8, x0.9, x1.1, x1.2]",Multiplier,1,Linear gain
+Photometric,Gamma Correction,"$\gamma = [0.8, 0.9, 1.1, 1.2]$",Power,1,Non-linear transform
+Compound,Crop + JPEG,Crop 10% then JPEG 70,Sequential chain,1,Chain order: crop $\to$ JPEG
+Compound,Rotate + JPEG,Rotate $2^\circ$ then JPEG 70,Sequential chain,1,Chain order: rot $\to$ JPEG

@@ -1,0 +1,4 @@
+subband,n_images,mean_adaptive_fixed_diff,std_diff,se_diff,ci_90_t_lower,ci_90_t_upper,ci_90_boot_lower,ci_90_boot_upper,ci_95_t_lower,ci_95_t_upper,ci_95_boot_lower,ci_95_boot_upper,is_mutually_consistent,verdict
+HL,100,0.000554,0.002508,0.000251,0.000138,0.00097,0.000187,0.001008,5.6e-05,0.001052,0.000133,0.001098,True,Mutually Consistent (mean lies inside all 90% and 95% CIs)
+LL,100,0.004357,0.002478,0.000248,0.003945,0.004768,0.00396,0.004764,0.003865,0.004849,0.00388,0.004846,True,Mutually Consistent (mean lies inside all 90% and 95% CIs)
+both,100,0.002455,0.001885,0.000189,0.002142,0.002768,0.002163,0.00278,0.002081,0.00283,0.002115,0.002854,True,Mutually Consistent (mean lies inside all 90% and 95% CIs)

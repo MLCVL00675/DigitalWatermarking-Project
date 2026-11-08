@@ -1,0 +1,5 @@
+dataset_level,model_formula,random_intercept,n_rows,n_images,interaction_term,lrt_chi2,df,p_value_lrt,is_significant,llf_full,llf_reduced
+severity_level_observations,ber ~ C(method) + C(subband) + C(attack) + severity_level + C(method):C(attack) + C(subband):C(attack),image_id (1 | image_id),26800,100,method:attack,16.25,12,0.1798890663105442,False,31658.15,31650.02
+severity_level_observations,ber ~ C(method) + C(subband) + C(attack) + severity_level + C(method):C(attack) + C(subband):C(attack),image_id (1 | image_id),26800,100,subband:attack,34800.02,12,0.0,True,31658.15,14258.14
+image_level_means,ber ~ C(method) + C(subband) + C(attack) + C(method):C(attack) + C(subband):C(attack),image_id (1 | image_id),5200,100,method:attack,14.56,12,0.266491697493575,False,9980.59,9973.31
+image_level_means,ber ~ C(method) + C(subband) + C(attack) + C(method):C(attack) + C(subband):C(attack),image_id (1 | image_id),5200,100,subband:attack,-inf,12,1.0,False,9980.59,inf

@@ -1,0 +1,28 @@
+{
+  "hardware": {
+    "cpu_model": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpu_logical_cores": 16,
+    "cpu_physical_cores": 8,
+    "total_ram_gb": 15.19,
+    "available_ram_gb": 1.21,
+    "machine_arch": "AMD64",
+    "processor_id": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "is_64bit": true
+  },
+  "operating_system": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "software_versions": {
+    "python": "3.13.5",
+    "numpy": "2.4.2",
+    "scipy": "1.17.0",
+    "pywavelets": "1.8.0",
+    "opencv": "5.0.0",
+    "psutil": "7.2.2",
+    "pandas": "3.0.0"
+  },
+  "timestamp_epoch": 1793512210
+}

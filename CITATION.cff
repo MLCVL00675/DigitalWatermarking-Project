@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this benchmark codebase, experimental results, or evaluation methodology, please cite it as below."
+title: "Rigorous Matched-Distortion Evaluation and Empirical Benchmark for Frequency-Domain Adaptive Image Watermarking"
+abstract: "A comprehensive, reproducible benchmark suite for robust frequency-domain digital image watermarking. Evaluates adaptive vs. fixed DWT-DCT-SVD embedding under strict matched clean cover distortion (46.0 dB PSNR) across 208 standardized images and 100 COCO images, rigorous hypothesis testing (H1-H4), 880,000+ trial executions, geometric synchronization deskewing, Craver ambiguity vulnerability analysis, and generative diffusion post-processing threat models."
+authors:
+  - family-names: "Vyas"
+    given-names: "Matta Laxmichandra"
+    affiliation: "Vellore Institute of Technology, Vellore, Tamil Nadu, India"
+    email: "mattalaxmichandravyas@gmail.com"
+  - family-names: "Sur"
+    given-names: "Samrat"
+    affiliation: "Vellore Institute of Technology, Vellore, Tamil Nadu, India"
+  - family-names: "Jenin"
+    given-names: "Pranav"
+    affiliation: "Vellore Institute of Technology, Vellore, Tamil Nadu, India"
+version: "4.0.0"
+date-released: 2026-11-03
+license: "MIT"
+repository-code: "https://github.com/MLCVL00675/DigitalWatermarking-Project"
+keywords:
+  - digital watermarking
+  - DWT-DCT-SVD
+  - matched-distortion
+  - steganography
+  - statistical hypothesis testing
+  - Craver ambiguity attack
+  - geometric synchronization
+  - generative diffusion robustness
+  - reproducibility

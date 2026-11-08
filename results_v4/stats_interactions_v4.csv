@@ -1,0 +1,5 @@
+dataset_level,n_images,n_rows,model_type,model_formula,test_statistic_name,test_statistic,df,p_value,is_significant,llf_full,llf_reduced,notes
+image_subband_attack_means_benchmark_100,100,2000,MixedLM (LRT),ber ~ C(subband) * C(attack) + (1 | image_id),LRT chi2,4330.73,9,0.0,True,3415.04,1249.68,Reml=False. Resolved -inf likelihood by clean image-subband-attack aggregation.
+image_subband_attack_means_benchmark_100,100,2000,"Permutation Test (10,000 perms)",Repeated-Measures Interaction F,F-statistic,2431.44,"(9, 891)",9.999000099990002e-05,True,,,Exchangeable unit: image. Permuted attack assignments within image. Count >= F_obs: 0/10000.
+image_subband_attack_means_all_208,208,4160,MixedLM (LRT),ber ~ C(subband) * C(attack) + (1 | image_id),LRT chi2,8863.15,9,0.0,True,7076.88,2645.3,Reml=False. Resolved -inf likelihood by clean image-subband-attack aggregation.
+image_subband_attack_means_all_208,208,4160,"Permutation Test (10,000 perms)",Repeated-Measures Interaction F,F-statistic,4884.53,"(9, 1863)",9.999000099990002e-05,True,,,Exchangeable unit: image. Permuted attack assignments within image. Count >= F_obs: 0/10000.

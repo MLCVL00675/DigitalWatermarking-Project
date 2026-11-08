@@ -1,0 +1,15 @@
+payload_id,payload_name,payload_type,total_bits,num_ones,num_zeros,fraction_ones,ber_all_zeros,ber_all_ones,ber_random_guess
+logo_orig,Original Logo (watermark_logo.png),original_logo,1024,419,605,0.4092,0.4092,0.5908,0.5013
+logo_whitened_s42,Whitened Logo (Seed 42),whitened_logo,1024,506,518,0.4941,0.4941,0.5059,0.5009
+logo_whitened_s101,Whitened Logo (Seed 101),whitened_logo,1024,524,500,0.5117,0.5117,0.4883,0.4976
+logo_whitened_s2024,Whitened Logo (Seed 2024),whitened_logo,1024,492,532,0.4805,0.4805,0.5195,0.5002
+balanced_0,Balanced Random Payload #0,balanced_random,1024,512,512,0.5,0.5,0.5,0.5002
+balanced_1,Balanced Random Payload #1,balanced_random,1024,512,512,0.5,0.5,0.5,0.4992
+balanced_2,Balanced Random Payload #2,balanced_random,1024,512,512,0.5,0.5,0.5,0.4993
+balanced_3,Balanced Random Payload #3,balanced_random,1024,512,512,0.5,0.5,0.5,0.4985
+balanced_4,Balanced Random Payload #4,balanced_random,1024,512,512,0.5,0.5,0.5,0.5015
+balanced_5,Balanced Random Payload #5,balanced_random,1024,512,512,0.5,0.5,0.5,0.5003
+balanced_6,Balanced Random Payload #6,balanced_random,1024,512,512,0.5,0.5,0.5,0.4994
+balanced_7,Balanced Random Payload #7,balanced_random,1024,512,512,0.5,0.5,0.5,0.5003
+balanced_8,Balanced Random Payload #8,balanced_random,1024,512,512,0.5,0.5,0.5,0.4995
+balanced_9,Balanced Random Payload #9,balanced_random,1024,512,512,0.5,0.5,0.5,0.5009

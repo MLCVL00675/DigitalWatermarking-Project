@@ -1,31 +1,44 @@
-# Python cache
+# Python cache & build
 __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+*.egg-info/
+build/
+dist/
 
-# Experimental outputs, reports, and benchmarks
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Standardized dataset images (Acquired deterministically via scripts/download_datasets.py)
+data/dataset_v2/
+data/dataset_coco_v2/
+data/usc_raw/
+data/kodak_raw/
+data/bsds_raw/
+data/coco_raw/
+
+# Temporary and local scratch files
+scratch/
+*.log
+*.zip
+watermarking_revision_package*.zip
+
+# Legacy and local experiment folders
 results/
+results_v2/
+results_v3/
 misc/
 experiments/
-*.csv
-*.log
 
-# Exclude generated plots and results from root
-*.png
-*.jpg
-*.jpeg
+# Root level result dumps and duplicate plots
+/*.csv
+/figs/
 
-# Explicitly allow sample test images and watermarks in data/
-!data/**
-
-# Attacks and ablation scripts (excluded from submission)
-watermark/attacks.py
-run_ablation_experiment.py
-generate_corrected_alpha_sweep_analysis.py
-benchmark_internet_images.py
-
-# IDE and OS files
+# IDE and OS metadata
 .vscode/
 .idea/
 .DS_Store
